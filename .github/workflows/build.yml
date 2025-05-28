@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         arch: [x86_64, riscv64, aarch64]
-        rust-toolchain: [nightly-2024-12-25, nightly]
+        rust-toolchain: [nightly-2025-05-20, nightly]
     env:
       RUSTUP_TOOLCHAIN: ${{ matrix.rust-toolchain }}
     steps:
@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        rust-toolchain: [nightly-2024-12-25, nightly]
+        rust-toolchain: [nightly-2024-05-20, nightly]
     env:
       RUSTUP_TOOLCHAIN: ${{ matrix.rust-toolchain }}
     steps:
@@ -52,7 +52,7 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         arch: [x86_64, riscv64, aarch64]
-        rust-toolchain: [nightly-2024-12-25, nightly]
+        rust-toolchain: [nightly-2025-05-20, nightly]
     env:
       RUSTUP_TOOLCHAIN: ${{ matrix.rust-toolchain }}
     steps:
@@ -63,6 +63,8 @@ jobs:
         components: rust-src, llvm-tools
         targets: x86_64-unknown-none, riscv64gc-unknown-none-elf, aarch64-unknown-none, aarch64-unknown-none-softfloat
     - uses: Swatinem/rust-cache@v2
+      with:
+        cache-target: false
     - run: cargo install cargo-binutils
     - name: Build the repo
       continue-on-error: ${{ matrix.rust-toolchain == 'nightly' }}
