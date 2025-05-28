@@ -117,7 +117,7 @@ dependencies = [
 [[package]]
 name = "arceos_api"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -208,7 +208,7 @@ dependencies = [
 [[package]]
 name = "axalloc"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "allocator",
  "axerrno",
@@ -221,7 +221,7 @@ dependencies = [
 [[package]]
 name = "axconfig"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axconfig-gen-macros",
 ]
@@ -277,7 +277,7 @@ dependencies = [
 [[package]]
 name = "axdriver"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -335,7 +335,7 @@ dependencies = [
 [[package]]
 name = "axfeat"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axalloc",
  "axdriver",
@@ -350,7 +350,7 @@ dependencies = [
 [[package]]
 name = "axfs"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axdriver",
  "axdriver_block",
@@ -404,7 +404,7 @@ dependencies = [
 [[package]]
 name = "axhal"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "aarch64-cpu 10.0.0",
  "arm-gic-driver",
@@ -432,7 +432,7 @@ dependencies = [
  "page_table_multiarch",
  "percpu",
  "raw-cpuid 11.5.0",
- "riscv 0.12.1",
+ "riscv 0.13.0",
  "sbi-rt",
  "static_assertions",
  "tock-registers 0.9.0",
@@ -453,7 +453,7 @@ dependencies = [
 [[package]]
 name = "axlog"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "cfg-if",
  "crate_interface",
@@ -464,7 +464,7 @@ dependencies = [
 [[package]]
 name = "axmm"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -480,7 +480,7 @@ dependencies = [
 [[package]]
 name = "axns"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "crate_interface",
  "lazyinit",
@@ -489,7 +489,7 @@ dependencies = [
 [[package]]
 name = "axruntime"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -509,7 +509,7 @@ dependencies = [
 [[package]]
 name = "axstd"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "arceos_api",
  "axerrno",
@@ -521,7 +521,7 @@ dependencies = [
 [[package]]
 name = "axsync"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axtask",
  "kspin",
@@ -530,7 +530,7 @@ dependencies = [
 [[package]]
 name = "axtask"
 version = "0.1.0"
-source = "git+https://github.com/arceos-hypervisor/arceos.git?branch=vmm#20d52d36d2eeb05edd7240c0e0b0cf17993c38bc"
+source = "git+https://github.com/langqiuyi-77/arceos.git?branch=vmm#ecdb9c5ed880fc12142e6176321fbed901fb7286"
 dependencies = [
  "axconfig",
  "axhal",
@@ -985,18 +985,18 @@ source = "git+https://github.com/arceos-org/linked_list.git?tag=v0.1.0#34c8db301
 
 [[package]]
 name = "linkme"
-version = "0.3.32"
+version = "0.3.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "22d227772b5999ddc0690e733f734f95ca05387e329c4084fe65678c51198ffe"
+checksum = "a1b1703c00b2a6a70738920544aa51652532cacddfec2e162d2e29eae01e665c"
 dependencies = [
  "linkme-impl",
 ]
 
 [[package]]
 name = "linkme-impl"
-version = "0.3.32"
+version = "0.3.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71a98813fa0073a317ed6a8055dcd4722a49d9b862af828ee68449adb799b6be"
+checksum = "04d55ca5d5a14363da83bf3c33874b8feaa34653e760d5216d7ef9829c88001a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1021,12 +1021,12 @@ checksum = "90ed8c1e510134f979dbc4f070f87d4313098b704861a105fe34231c70a3901c"
 
 [[package]]
 name = "loongArch64"
-version = "0.2.4"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd48200d465466664e4e899b204b77b5447d60b1ababdad3a2c49ae85417b552"
+checksum = "7c9f0d275c70310e2a9d2fc23250c5ac826a73fa828a5f256401f85c5c554283"
 dependencies = [
  "bit_field",
- "bitflags 1.3.2",
+ "bitflags 2.9.0",
 ]
 
 [[package]]
@@ -1061,9 +1061,9 @@ dependencies = [
 
 [[package]]
 name = "ns16550a"
-version = "0.4.0"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "667fbdfccff4775918606516ff6ca51b898ac0842c4bc41c960a55a9832545a6"
+checksum = "e3cd8abe9e54bce27659507b94f355c9334378ab15da332b6986b3583ebf7228"
 
 [[package]]
 name = "num-traits"
@@ -1252,6 +1252,18 @@ dependencies = [
  "critical-section",
  "embedded-hal",
  "paste",
+ "riscv-pac",
+]
+
+[[package]]
+name = "riscv"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "afa3cdbeccae4359f6839a00e8b77e5736caa200ba216caf38d24e4c16e2b586"
+dependencies = [
+ "critical-section",
+ "embedded-hal",
+ "paste",
  "riscv-macros",
  "riscv-pac",
 ]
@@ -1263,9 +1275,9 @@ source = "git+https://github.com/KuangjuX/riscv-decode.git#0e346d0ad041987023caa
 
 [[package]]
 name = "riscv-macros"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f265be5d634272320a7de94cea15c22a3bfdd4eb42eb43edc528415f066a1f25"
+checksum = "e8c4aa1ea1af6dcc83a61be12e8189f9b293c3ba5a487778a4cd89fb060fdbbc"
 dependencies = [
  "proc-macro2",
  "quote",
